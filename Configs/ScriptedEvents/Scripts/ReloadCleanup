@@ -1,0 +1,5 @@
+!-- AUTORUN
+WAITSEC 1
+COMMAND /au kick 1
+COMMAND /au kick 2
+STOP
