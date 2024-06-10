@@ -1,0 +1,22 @@
+!-- EVENT AnnouncingNtfEntrance
+CLEARCASSIE
+COMMAND /au kick 3
+
+COMMAND /au add 1
+COMMAND /au nick 1 Nine-Tailed Fox
+COMMAND /au volume 1 16
+COMMAND /au play 1 /PATH/Announc.ogg
+WAITSEC 26
+COMMAND /au kick 1
+
+IF {TOTALWAVES} = 1
+WAITSEC 15
+COMMAND /au add 1
+COMMAND /au nick 1 Nine-Tailed Fox
+COMMAND /au volume 1 16
+COMMAND /au play 1 /PATH/AnnouncAfter1.ogg
+WAITSEC 16
+COMMAND /au kick 1
+ENDIF
+
+STOP
