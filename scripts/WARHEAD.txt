@@ -1,0 +1,10 @@
+!-- AUTORUN
+WAITUNTIL {WARHEAD:ISCOUNTING} = TRUE
+WAITUNTIL {WARHEAD:ISCOUNTING} = FALSE
+WAITUNTIL {WARHEAD:ISCOUNTING} = TRUE
+WARHEAD LOCK
+WAITSEC 10
+CASSIE SILENT Danger . Warhead can not yield_0.6 be turned off . pitch_0.85 Evacuate yield_01 pitch_0.70 IMMEDIATELY | Danger. Warhead can not be turned off. Evacuate immediately.
+WAITUNTIL {CASSIESPEAKING} = FALSE
+HINT {PLAYERSALIVE} 30 СРОЧНО ЭВАКУИРУЙТЕСЬ!
+STOP
