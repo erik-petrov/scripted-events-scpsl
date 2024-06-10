@@ -20,7 +20,7 @@ ENDIF
 COMMAND /au add 2
 COMMAND /au nick 2 Nine-Tailed Fox
 COMMAND /au volume 2 12
-COMMAND /au play 2 /PATH/AnnouncLost.ogg
+COMMAND /au play 2 AnnouncLost.ogg
 WAITSEC 35
 COMMAND /au kick 2
 GOTO START
